@@ -848,7 +848,7 @@
                 "version": "1.4.2.0",
                 "changelog": "Added support for Jellyfin 10.8.\n",
                 "targetAbi": "10.8.0.0",
-                "sourceUrl": "https://github.com/firecore/InfuseSync/releases/download/v1.4.2/InfuseSync-jellyfin-1.4.2.zip",
+                "sourceUrl": "https://raw.githubusercontent.com/BelieveOP5/jellyfin-repo/main/plugin/InfuseSync/InfuseSync-jellyfin-1.4.2.zip",
                 "checksum": "4f3188f705028682df87a7beb9d606d5",
                 "timestamp": "2022-04-12T04:00:00Z"
             },

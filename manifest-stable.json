@@ -24,7 +24,7 @@
         "description": "This plugin will track all media changes while any Infuse clients are offline to decrease sync times when logging back in to your server.",
         "overview": "Blazing fast indexing for Infuse",
         "owner": "Firecore LLC",
-        "imageUrl": "https://raw.githubusercontent.com/firecore/InfuseSync/master/InfuseSync/thumb.png",
+        "imageUrl": "https://raw.githubusercontent.com/BelieveOP5/jellyfin-repo/main/plugin/images/jellyfin-plugin-infusesync.png",
         "category": "General",
         "versions": [
             {

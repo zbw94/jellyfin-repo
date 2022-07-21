@@ -387,13 +387,13 @@
         "overview": "Download subtitles for your media",
         "owner": "jellyfin",
         "category": "Metadata",
-        "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-opensubtitles.png",
+        "imageUrl": "https://raw.githubusercontent.com/BelieveOP5/jellyfin-repo/main/plugin/images/jellyfin-plugin-opensubtitles.png",
         "versions": [
             {
                 "version": "18.0.0.0",
                 "changelog": "### Bug Fixes ###\n- Fix pagination (#92) @MBR-0001\n\n### Tests ###\n- Minor improvements (#90) @Bond-009\n\n### Code or Repo Maintenance ###\n- Use meta ci (#101) @crobibero\n- chore(deps): bump Microsoft.NET.Test.Sdk from 16.11.0 to 17.0.0 (#91) @dependabot\n- Minor improvements (#90) @Bond-009\n- Replace %20 with + in SearchSubtitlesAsync (#89) @MBR-0001\n- Implement Bad Gateway handling & code cleanup (#87) @MBR-0001\n\n### Dependency updates ###\n- chore(deps): bump Microsoft.NET.Test.Sdk from 16.11.0 to 17.0.0 (#91) @dependabot\n\n### CI & build changes ###\n- Use meta ci (#101) @crobibero",
                 "targetAbi": "10.8.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/open-subtitles/open-subtitles_18.0.0.0.zip",
+                "sourceUrl": "https://raw.githubusercontent.com/BelieveOP5/jellyfin-repo/main/plugin/open-subtitles/open-subtitles_18.0.0.0.zip",
                 "checksum": "9154f9a36248a2e8dead09e52291206a",
                 "timestamp": "2022-03-28T00:04:24Z"
             },

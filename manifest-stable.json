@@ -36,5 +36,24 @@
                 "timestamp": "2022-04-12T04:00:00Z"
             }
         ]
+    },
+    {
+        "guid": "4fe3201e-d6ae-4f2e-8917-e12bda571281",
+        "name": "Trakt",
+        "description": "Record your watched media with Trakt.\n",
+        "overview": "Record your watched media with Trakt",
+        "owner": "jellyfin",
+        "category": "General",
+        "imageUrl": "https://raw.githubusercontent.com/BelieveOP5/jellyfin-repo/main/plugin/images/jellyfin-plugin-trakt.png",
+        "versions": [
+            {
+                "version": "19.0.0.0",
+                "changelog": "### Bug Fixes ###\n- Properly handle 404 API responses (#144) @Shadowghost\n\n### Dependency updates ###\n- chore(deps): bump StyleCop.Analyzers from 1.2.0-beta.406 to 1.2.0-beta.435 (#139) @dependabot\n\n### CI & build changes ###\n- fix: meta ci workflows (#145) @h1dden-da3m0n",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://raw.githubusercontent.com/BelieveOP5/jellyfin-repo/main/plugin/trakt/trakt_19.0.0.0.zip",
+                "checksum": "4286ad59d87aa66d220fb7ff98d49430",
+                "timestamp": "2022-05-28T17:17:20Z"
+            }
+        ]
     }
 ]

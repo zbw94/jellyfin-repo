@@ -1,5 +1,5 @@
 jellyfin-repo:
-https://raw.githubusercontent.com/BelieveOP5/jellyfin-repo/main/manifest-stable.json
+https://raw.githubusercontent.com/zbw94/jellyfin-repo/main/manifest-stable.json
 
 Offical jellyfin-repo:
 https://repo.jellyfin.org/releases/plugin/manifest-stable.json

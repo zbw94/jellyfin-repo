@@ -6,13 +6,13 @@
         "overview": "Download subtitles for your media",
         "owner": "jellyfin",
         "category": "Metadata",
-        "imageUrl": "https://raw.githubusercontent.com/BelieveOP5/jellyfin-repo/main/plugin/images/jellyfin-plugin-opensubtitles.png",
+        "imageUrl": "https://raw.githubusercontent.com/zbw94/jellyfin-repo/main/plugin/images/jellyfin-plugin-opensubtitles.png",
         "versions": [
             {
                 "version": "18.0.0.0",
                 "changelog": "### Bug Fixes ###\n- Fix pagination (#92) @MBR-0001\n\n### Tests ###\n- Minor improvements (#90) @Bond-009\n\n### Code or Repo Maintenance ###\n- Use meta ci (#101) @crobibero\n- chore(deps): bump Microsoft.NET.Test.Sdk from 16.11.0 to 17.0.0 (#91) @dependabot\n- Minor improvements (#90) @Bond-009\n- Replace %20 with + in SearchSubtitlesAsync (#89) @MBR-0001\n- Implement Bad Gateway handling & code cleanup (#87) @MBR-0001\n\n### Dependency updates ###\n- chore(deps): bump Microsoft.NET.Test.Sdk from 16.11.0 to 17.0.0 (#91) @dependabot\n\n### CI & build changes ###\n- Use meta ci (#101) @crobibero",
                 "targetAbi": "10.8.0.0",
-                "sourceUrl": "https://raw.githubusercontent.com/BelieveOP5/jellyfin-repo/main/plugin/open-subtitles/open-subtitles_18.0.0.0.zip",
+                "sourceUrl": "https://raw.githubusercontent.com/zbw94/jellyfin-repo/main/plugin/open-subtitles/open-subtitles_18.0.0.0.zip",
                 "checksum": "9154f9a36248a2e8dead09e52291206a",
                 "timestamp": "2022-03-28T00:04:24Z"
             }
@@ -24,14 +24,14 @@
         "description": "This plugin will track all media changes while any Infuse clients are offline to decrease sync times when logging back in to your server.",
         "overview": "Blazing fast indexing for Infuse",
         "owner": "Firecore LLC",
-        "imageUrl": "https://raw.githubusercontent.com/BelieveOP5/jellyfin-repo/main/plugin/images/jellyfin-plugin-infusesync.png",
+        "imageUrl": "https://raw.githubusercontent.com/zbw94/jellyfin-repo/main/plugin/images/jellyfin-plugin-infusesync.png",
         "category": "General",
         "versions": [
             {
                 "version": "1.4.2.0",
                 "changelog": "Added support for Jellyfin 10.8.\n",
                 "targetAbi": "10.8.0.0",
-                "sourceUrl": "https://raw.githubusercontent.com/BelieveOP5/jellyfin-repo/main/plugin/InfuseSync/InfuseSync-jellyfin-1.4.2.zip",
+                "sourceUrl": "https://raw.githubusercontent.com/zbw94/jellyfin-repo/main/plugin/InfuseSync/InfuseSync-jellyfin-1.4.2.zip",
                 "checksum": "4f3188f705028682df87a7beb9d606d5",
                 "timestamp": "2022-04-12T04:00:00Z"
             }
@@ -44,15 +44,34 @@
         "overview": "Record your watched media with Trakt",
         "owner": "jellyfin",
         "category": "General",
-        "imageUrl": "https://raw.githubusercontent.com/BelieveOP5/jellyfin-repo/main/plugin/images/jellyfin-plugin-trakt.png",
+        "imageUrl": "https://raw.githubusercontent.com/zbw94/jellyfin-repo/main/plugin/images/jellyfin-plugin-trakt.png",
         "versions": [
             {
-                "version": "19.0.0.0",
-                "changelog": "### Bug Fixes ###\n- Properly handle 404 API responses (#144) @Shadowghost\n\n### Dependency updates ###\n- chore(deps): bump StyleCop.Analyzers from 1.2.0-beta.406 to 1.2.0-beta.435 (#139) @dependabot\n\n### CI & build changes ###\n- fix: meta ci workflows (#145) @h1dden-da3m0n",
+                "version": "23.0.0.0",
+                "changelog": "### New features and improvements ###\n- Added config parameter Don't remove items from trakt (#196) @addamanth\n\n### Bug Fixes ###\n- Sync  if not set locally (#201) @blackwind\n- Fix episode last played date syncing (#199) @Shadowghost",
+                "targetAbi": "10.8.9.0",
+                "sourceUrl": "https://raw.githubusercontent.com/zbw94/jellyfin-repo/main/plugin/trakt/trakt_23.0.0.0.zip",
+                "checksum": "ad39a1011f4ceaa94baa6cb93b4b0471",
+                "timestamp": "2023-02-10T23:21:39Z"
+            }
+        ]
+    },
+    {
+        "guid": "8119f3c6-cfc2-4d9c-a0ba-028f1d93e526",
+        "name": "Cover Art Archive",
+        "description": "This plugin provides images from the Cover Art Archive https://musicbrainz.org/doc/Cover_Art_Archive and depends on the MusicBrainz metadata provider to know what images belong where\n",
+        "overview": "MusicBrainz Cover Art Archive",
+        "owner": "jellyfin",
+        "category": "Metadata",
+        "imageUrl": "https://raw.githubusercontent.com/zbw94/jellyfin-repo/main/plugin/images/jellyfin-plugin-coverartarchive.png",
+        "versions": [
+            {
+                "version": "7.0.0.1",
+                "changelog": "### Bug Fixes ###\n- fix client string (#19) @Shadowghost\n\n### Code or Repo Maintenance ###\n- Fix readme (#20) @Shadowghost",
                 "targetAbi": "10.8.0.0",
-                "sourceUrl": "https://raw.githubusercontent.com/BelieveOP5/jellyfin-repo/main/plugin/trakt/trakt_19.0.0.0.zip",
-                "checksum": "4286ad59d87aa66d220fb7ff98d49430",
-                "timestamp": "2022-05-28T17:17:20Z"
+                "sourceUrl": "https://raw.githubusercontent.com/zbw94/jellyfin-repo/main/plugin/cover-art-archive/cover-art-archive_7.0.0.1.zip",
+                "checksum": "d641c8f92ceb6b2a9cab346acf40994f",
+                "timestamp": "2023-06-03T17:56:04Z"
             }
         ]
     }
